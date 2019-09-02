@@ -1,0 +1,27 @@
+{
+  "name": "mtick",
+  "version": "1.0.0",
+  "description": "sandbox for microtick",
+  "main": "mtick/index.js",
+  "bin": {
+    "mtick": "./mtick/index.js"
+  },
+  "scripts": {
+    "start-dev": "yarn link",
+    "stop-dev": "yarn unlink"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okwme/microtick.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okwme/microtick/issues"
+  },
+  "homepage": "https://github.com/okwme/microtick#readme",
+  "dependencies": {
+    "commander": "^3.0.1",
+    "mtapi": "link:../microtick/mtapi/dist"
+  }
+}
